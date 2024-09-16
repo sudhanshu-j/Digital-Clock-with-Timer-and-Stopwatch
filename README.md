@@ -44,7 +44,9 @@
 
 3. JQuery Integration
 
-       The project includes jQuery from the Google CDN to enhance the JavaScript capabilities and simplify operations        like DOM manipulation and event handling. The following CDN link is used:
+       The project includes jQuery from the Google CDN to enhance the JavaScript capabilities and simplify operations
+
+       like DOM manipulation and event handling. The following CDN link is used:
 
             <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
 
@@ -56,7 +58,7 @@
 
              • Smooth transitions and effects for buttons and timer/stopwatch functionality.
 
-4. Project Structure
+5. Project Structure
 
        digital-clock-timer-stopwatch/
        │
@@ -65,7 +67,7 @@
        ├── script.js             # JavaScript file containing logic for the clock, timer, and stopwatch
        └── README.md             # Project documentation
 
-5. Installation
+6. Installation
 To run the project locally, follow these steps:
 
        5.1 Clone the repository:
@@ -80,7 +82,7 @@ To run the project locally, follow these steps:
 
           • Simply open the file in any modern browser, no need for server setup.
 
-6. Usage
+7. Usage
 
        Once you have the project open in your browser, the following functionality is available:
 
