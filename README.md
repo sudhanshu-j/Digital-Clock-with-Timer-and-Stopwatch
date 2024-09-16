@@ -26,7 +26,7 @@
        • Timer: Allows users to set a custom countdown timer with start, stop, and reset functionalities. Alerts when 
          time runs out.
 
-       • Stopwatch: Offers start, stop, lap and reset options. Tracks time with millisecond precision.
+       • Stopwatch: Offers start, lap and reset options. Tracks time with millisecond precision.
 
        • Responsive design, suitable for both desktop and mobile devices.
 
