@@ -64,7 +64,7 @@
        │
        ├── index.html            # The main HTML file
        ├── style.css             # CSS file for styling the webpage
-       ├── script.js             # JavaScript file containing logic for the clock, timer, and stopwatch
+       ├── main.js               # JavaScript file containing logic for the clock, timer, and stopwatch
        └── README.md             # Project documentation
 
 6. Installation
