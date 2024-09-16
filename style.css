@@ -1,0 +1,328 @@
+/* Google Font */
+
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap");
+
+/* CSS variable */
+
+:root {
+  --primary-color4: #eeeeee;
+  --primary-color2: #892858;
+  --primary-color: #207883;
+  --primary-color3: #028090;
+  --title-color: #3a4454;
+  --border-color: #201f1f17;
+  --box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
+    rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+
+  /* Fontfamily variable */
+  --font-style: "Orbitron", sans-serif;
+}
+
+/* Generic Styling */
+
+html,
+body {
+  margin: 0%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  min-width: 100vw;
+  background: var(--primary-color);
+  font-family: var(--font-style);
+}
+
+/* Reused Styling */
+
+.Container {
+  width: 100vw;
+  max-width: 800px;
+  border-radius: 10px;
+}
+
+.type {
+  padding: 5px 30px;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  color: rgba(255, 232, 212, 0.505);
+}
+
+/* Header Styling */
+
+.header {
+  text-align: center;
+  color: var(--title-color);
+  letter-spacing: 8px;
+}
+
+.header .span-2 {
+  display: block;
+  margin-top: 15px;
+}
+
+/* Styling all Spans */
+
+span {
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+
+/* Stopwatch Section  */
+
+.stopWatch {
+  padding: 30px 0;
+  background: transparent;
+  box-shadow: var(--box-shadow);
+  border: none;
+  margin-top: 30px;
+  text-align: center;
+  transition: all 0.3s;
+}
+
+.stopWatch:hover {
+  box-shadow: -8px 8px 10px 0px rgba(22, 20, 20, 0.33);
+  -webkit-box-shadow: -8px 8px 10px 0px rgba(22, 20, 20, 0.33);
+  -moz-box-shadow: -8px 8px 10px 0px rgba(22, 20, 20, 0.33);
+}
+
+.digits {
+  text-align: center;
+  font-size: 50px;
+  color: var(--primary-color4);
+}
+
+.text {
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+#count {
+  position: relative;
+  top: -50px;
+  left: 30px;
+  font-size: 15px;
+  color: var(--primary-color4);
+}
+
+#btns {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+/* Buttons Styling */
+
+.btn {
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: var(--primary-color4);
+  border: none;
+  font-size: 12px;
+  font-weight: 500;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: all 0.3s;
+  background: transparent;
+  box-shadow: var(--box-shadow);
+  border: 1px solid var(--border-color);
+  letter-spacing: 5px;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: var(--primary-color3);
+  color: var(--title-color);
+  box-shadow: -8px 8px 10px 0px rgba(22, 20, 20, 0.33);
+  -webkit-box-shadow: -8px 8px 10px 0px rgba(22, 20, 20, 0.33);
+  -moz-box-shadow: -8px 8px 10px 0px rgba(22, 20, 20, 0.33);
+}
+
+/* Lap Button Styling */
+
+.laps {
+  position: relative;
+  max-height: 180px;
+  overflow-y: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.laps .lap {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border-radius: 10px;
+  background: #ffffff26;
+  box-shadow: -8px 8px 10px 0px rgba(22, 20, 20, 0.33);
+  -webkit-box-shadow: -8px 8px 10px 0px rgba(22, 20, 20, 0.33);
+  -moz-box-shadow: -8px 8px 10px 0px rgba(22, 20, 20, 0.33);
+}
+
+.laps .lap.active {
+  color: #ffe8d4;
+  font-weight: 800;
+}
+
+/* Intire Wrapper Styling */
+
+.wrapper {
+  border-radius: 10px;
+  background: transparent;
+  box-shadow: var(--box-shadow);
+  margin-top: 15px;
+  text-align: center;
+  transition: all 0.3s;
+  line-height: 0.4;
+}
+
+.wrapper:hover {
+  box-shadow: -8px 8px 10px 0px rgba(22, 20, 20, 0.33);
+  -webkit-box-shadow: -8px 8px 10px 0px rgba(22, 20, 20, 0.33);
+  -moz-box-shadow: -8px 8px 10px 0px rgba(22, 20, 20, 0.33);
+}
+
+/* Clock Section Styling */
+
+.clock {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.clock div {
+  width: 50%;
+  text-align: center;
+}
+
+.wrapper .clock .text {
+  font-size: 13px;
+  letter-spacing: 5px;
+}
+
+.wrapper .clock #hour,
+.Container .stopWatch #hr,
+.Container .wrapper #time_hour {
+  color: #27a586;
+}
+
+.wrapper .clock #mint,
+.Container .stopWatch #min,
+.Container .wrapper #time_mint {
+  color: #4b1a5f;
+}
+
+.wrapper .clock #second,
+.Container .stopWatch #sec,
+.Container .wrapper #time_second {
+  color: #651428;
+}
+
+.wrapper .clock #ampm,
+.Container .stopWatch #count,
+.Container .wrapper #time_MiliSecond {
+  color: #7eea2b;
+}
+
+.wrapper .clock #other_ampm {
+  color: #2c1717;
+}
+
+.number {
+  font-size: 50px;
+  color: #fffcd6;
+  font-family: "Orbitron", sans-serif;
+}
+
+.colon {
+  font-size: 30px;
+}
+
+.hidden {
+  display: none;
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 768px) {
+  /* Styles for screens smaller than 768px */
+  .digits {
+    font-size: 50px;
+  }
+  .text {
+    font-size: 15px;
+    font-weight: 500;
+  }
+
+  .stopWatch {
+    padding: 30px;
+    margin: 50px;
+  }
+
+  .wrapper {
+    padding: 15px;
+    margin: 50px;
+  }
+}
+
+@media screen and (max-width: 530px) {
+  /* Styles for screens smaller than 530px */
+  .header {
+    padding: unset;
+  }
+  h1 {
+    font-size: 9px;
+  }
+
+  span {
+    font-size: 11px;
+  }
+  .stopWatch {
+    padding: 15px;
+    margin: 26px;
+  }
+
+  .wrapper {
+    padding: 10px;
+    margin: 26px;
+  }
+
+  .clock {
+    gap: 3px;
+  }
+
+  .digits {
+    font-size: 25px;
+  }
+
+  .text {
+    font-size: 8px;
+  }
+
+  #count {
+    display: none;
+  }
+
+  .btn {
+    padding: 8px 10px;
+  }
+
+  .clock .number {
+    font-size: 20px;
+  }
+}
