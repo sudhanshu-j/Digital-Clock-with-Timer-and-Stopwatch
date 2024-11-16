@@ -6,13 +6,23 @@ It provides a clean and intuitive interface where users can track time, set time
 
 ---
 
+## Live Demo
+
+[Digital Clock with Timer and Stopwatch]()
+
+
 ## Table of Contents
 
 1. [Features](#features)
+
 2. [Technologies Used](#technologies-used)
+
 3. [jQuery Integration](#jquery-integration)
+
 4. [Project Structure](#project-structure)
+
 5. [Installation](#installation)
+
 6. [Usage](#usage)
 
 ---
@@ -20,23 +30,35 @@ It provides a clean and intuitive interface where users can track time, set time
 ## Features
 
 - **Digital Clock**: Displays the current time in a 12-hour format.
+
 - **Timer**:  
-  Allows users to set a custom countdown timer with start, stop, and reset functionalities.  
-  Alerts when the timer runs out.
+
+    - Allows users to set a custom countdown timer with start, stop, and reset functionalities.  
+
+    - Alerts when the timer runs out.
+
 - **Stopwatch**:  
-  Offers start, lap, and reset options, tracking time with millisecond precision.
+
+    - Offers start, lap, and reset options, tracking time with millisecond precision.
+
 - **Responsive Design**:  
-  Suitable for both desktop and mobile devices.
+
+    - Suitable for both desktop and mobile devices.
+
 - **Smooth User Interactions**:  
-  Animations ensure a seamless user experience.
+
+    - Animations ensure a seamless user experience.
 
 ---
 
 ## Technologies Used
 
 - **HTML5**: Provides the structure and layout of the webpage.
+
 - **CSS3**: Styles the user interface with a focus on responsiveness and user experience.
+
 - **JavaScript (ES6)**: Implements the core functionality for the digital clock, timer, and stopwatch.
+
 - **jQuery 3.6.3**: Utilized for DOM manipulation, event handling, and simplifying JavaScript code.
 
 ---
