@@ -149,4 +149,4 @@ If you have any questions, suggestions, or feedback, feel free to reach out to m
 
 - **Email**: sudhanshujha164@gmail.com
 
-2. **GitHub**: sudhanshu-j
+2. **GitHub**: [sudhanshu-j](https://github.com/sudhanshu-j)
