@@ -131,13 +131,13 @@ We welcome contributions to improve this project! Feel free to fork the reposito
 
 2. **Fork the repository**.
 
-3. **Create a new branch** (git checkout -b feature/your-feature-name).
+3. **Create a new branch** (`git checkout -b feature/your-feature-name`).
 
 4. **Make your changes**.
 
-5. **Commit your changes** (git commit -am 'Add new feature').
+5. **Commit your changes** (`git commit -am 'Add new feature'`).
 
-6. **Push to the branch** (git push origin feature/your-feature-name).
+6. **Push to the branch** (`git push origin feature/your-feature-name`).
 
 7. **Create a new pull request**.
 
