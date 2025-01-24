@@ -97,7 +97,7 @@ The stopwatch uses a series of checks to ensure that time progresses correctly:
 1. **Clone the repository**:
 
 ```bash
-git clone https://github.com/yourusername/Digital-Clock-with-Timer-and-Stopwatch.git
+git clone https://github.com/sudhanshu-j/Digital-Clock-with-Timer-and-Stopwatch.git
 ```
 
 2. **Navigate to the project directory:**
